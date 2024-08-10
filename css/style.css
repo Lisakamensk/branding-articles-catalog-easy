@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital@0;1&family=Inter&family=Roboto&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #703412;
+    background-color: #fefbf1;
+}
+
+.container {
+    max-width: 1076px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 7px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+.category-top {
+    min-height: calc(100vh - 67px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 21px;
+}
+
+.category-top-name {
+    font-size: 11px;
+    line-height: 400%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 80px;
+    line-height: 110%;
+    max-width: 840px;
+}
+
+.catalog {
+    margin-bottom: 122px;
+}
+
+.catalog-descr {
+    font-size: 32px;
+    line-height: 130%;
+    max-width: 570px;
+    margin-bottom: 194px;
+}
+
+.catalog__inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 96px 60px;
+}
+
+.catalog__item-img {
+    box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    margin-bottom: 32px;
+}
+
+.catalog__item-title {
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 11px;
+}
+
+.catalog__item-text {
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: rgba(112, 52, 18, 0.72);
+}
+
+.contacts {
+    background-color: #084935;
+    color: #fff;
+    padding-top: 120px;
+    padding-bottom: 110px;
+}
+
+.contacts__title {
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.contacts__inner-text {
+    font-size: 30px;
+    line-height: 128%;
+}
+
+.contacts__inner-text a {
+    font-size: 29px;
+    line-height: 132%;
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.footer {
+    background-color: #084935;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 81px;
+}
+
+.footer__menu-list {
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 240px;
+}
+
+.footer__copy {
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.footer__copy-text {
+    font-size: 16px;
+    color: #fff;
+    padding-top: 19px;
+    padding-bottom: 20px;
+}
